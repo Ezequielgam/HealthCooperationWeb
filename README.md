@@ -39,46 +39,48 @@ Incluye funcionalidades para administración, profesionales y pacientes, brindan
 
 ## 🏗️ Estructura del proyecto
 
+```
 src/
-├── main/
-│ ├── java/com/grupo3/HealthCooperationWeb/
-│ │ ├── controladores/ → Controladores de la aplicación
-│ │ ├── entidades/ → Clases de modelo (Pacientes, Profesionales, Turnos, etc.)
-│ │ ├── repositorios/ → Repositorios JPA
-│ │ └── seguridad/ → Configuración de seguridad
-│ └── resources/
-│ ├── templates/ → Vistas Thymeleaf
-│ ├── static/ → Recursos estáticos (CSS, imágenes, JS)
-│ └── application.properties
-
+ ├── main/
+ │   ├── java/com/grupo3/HealthCooperationWeb/
+ │   │   ├── controladores/   → Controladores de la aplicación
+ │   │   ├── entidades/       → Clases de modelo (Pacientes, Profesionales, Turnos, etc.)
+ │   │   ├── repositorios/    → Repositorios JPA
+ │   │   └── seguridad/       → Configuración de seguridad
+ │   └── resources/
+ │       ├── templates/       → Vistas Thymeleaf
+ │       ├── static/          → Recursos estáticos (CSS, imágenes, JS)
+ │       └── application.properties
+```
 
 ---
 
 ## 🧑‍💻 Equipo de desarrollo
 
-Proyecto desarrollado por el grupo 3 – Egg Academy.  
-Integrantes:
-- **Ezequiel Gamarro** – Backend / Integración
-
-
+Proyecto desarrollado por el **Grupo 3 – Egg Academy**  
+**Ezequiel Gamarro** – Backend / Integración / Frontend
+**Federico Birge** – Backend / Integración / Lider Tecnico
 ---
 
 ## 🏁 Cómo ejecutar el proyecto
 
 1. Clonar el repositorio:
    ```bash
-   git clone https://github.com/tuusuario/HealthCooperationWeb.git
-   
-1-Abrir el proyecto en IntelliJ IDEA o Spring Tool Suite.
+   git clone https://github.com/Ezequielgam/HealthCooperationWeb.git
+   ```
+2. Abrir el proyecto en **IntelliJ IDEA** o **Spring Tool Suite**.  
+3. Configurar la base de datos MySQL en `application.properties`.  
+4. Ejecutar la clase `HealthCooperationWebApplication.java`.  
+5. Acceder desde el navegador:
+   ```
+   http://localhost:8080
+   ```
 
-2-Configurar la base de datos MySQL en application.properties.
+---
 
-3-Ejecutar la clase HealthCooperationWebApplication.java.
-
-Acceder desde el navegador:
-http://localhost:8080
-
-📜 Licencia
+## 📜 Licencia
 
 Proyecto educativo desarrollado para fines de aprendizaje – Egg Academy (2024).
+
+---
 
